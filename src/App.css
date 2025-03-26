@@ -1,67 +1,68 @@
 .form-container {
-  padding: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.form-container1 {
-  padding: 30px;
-  border: 2px solid black;
-  width: 500px;
-  display: flex;
-  flex-direction: column; 
-  align-items: center; 
-}
-
-.card-container {
-  display: flex;
-  flex-direction: column;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  width: 100%; 
-}
-
-label {
-  margin-bottom: 5px;
-  margin-top: 5px;
-  font-size: 20px;
-}
-
-input {
-  padding: 10px;
-  border: 2px solid black;
-  width: 100%; 
-  border-radius: 10px;
-  font-size: 18px;
-  font-family: "Roboto";
-}
-
-.error {
-  color: red;
-  font-size: 14px;
-  margin-top: 2px;
-}
-
-.btn-container {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
-button {
-  border: 2px solid blue;
-  border-radius: 5px;
-  width: 170px;
-  padding: 5px;
-  background-color: blue;
-  color: white;
-  margin-top: 10px;
-  cursor: pointer; 
-  transition: 0.3s;
-}
-
-button:hover {
-  background-color: darkblue;
-}
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-container1 {
+    padding: 30px;
+    border: 2px solid black;
+    
+    width: 500px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+  }
+  
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%; 
+  }
+  
+  label {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    border: 2px solid black;
+    width: 100%; 
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: "Roboto";
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 2px;
+  }
+  
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  button {
+    border: 2px solid blue;
+    border-radius: 5px;
+    width: 170px;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer; 
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: darkblue;
+  }
